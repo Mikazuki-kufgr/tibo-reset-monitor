@@ -1,0 +1,42 @@
+{
+  "user_agent": "tibo-reset-monitor/0.2 (+https://github.com/Mikazuki-kufgr)",
+  "sources": [
+    "rss",
+    "feed",
+    "timeline",
+    "openai"
+  ],
+  "trusted_author_ids": {
+    "thsottiaux": "1953337039510003712",
+    "openai": "4398626122"
+  },
+  "notify_banked": false,
+  "notification_ttl_hours": 24,
+  "max_verifications_per_run": 20,
+  "channels": {
+    "windows": {
+      "enabled": false,
+      "sound": true,
+      "tts": true
+    },
+    "ntfy": {
+      "enabled": true,
+      "server": "https://ntfy.sh",
+      "topic_env": "NTFY_TOPIC",
+      "token_env": null
+    },
+    "bark": {
+      "enabled": false,
+      "server": "https://api.day.app",
+      "key_env": "BARK_DEVICE_KEY"
+    },
+    "webhook": {
+      "enabled": false,
+      "url_env": "RESET_WEBHOOK_URL",
+      "secret_env": "RESET_WEBHOOK_SECRET"
+    },
+    "qq_spool": {
+      "enabled": false
+    }
+  }
+}

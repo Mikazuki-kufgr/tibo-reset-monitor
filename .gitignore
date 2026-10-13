@@ -1,0 +1,8 @@
+runtime/
+work/
+__pycache__/
+*.pyc
+*.private.json
+config.json
+.env
+*.sqlite3

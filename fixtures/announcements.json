@@ -1,0 +1,633 @@
+{
+  "notice": "Offline test fixtures only. Never used as live verification. Real long posts use short exact excerpts; full public bodies were independently read during research.",
+  "posts": [
+    {
+      "id": "2109132167112782291",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "Put the reset in the bag. All propagated.",
+      "published": "2026-10-11T04:01:09.000Z",
+      "url": "https://x.com/thsottiaux/status/2109132167112782291",
+      "parent": null,
+      "quote": "2109045392684032299",
+      "verified": true
+    },
+    {
+      "id": "2109090080497508356",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "The day we reach perfection it will be resets from there onwards",
+      "published": "2026-10-11T01:13:54.000Z",
+      "url": "https://x.com/thsottiaux/status/2109090080497508356",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "2109045392684032299",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "Global reset by EOD. May the tokens do good things for you.",
+      "published": "2026-10-10T22:16:20.000Z",
+      "url": "https://x.com/thsottiaux/status/2109045392684032299",
+      "parent": "2109045220411351517",
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "2109045220411351517",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "Day 6/ Reset",
+      "published": "2026-10-10T22:15:39.000Z",
+      "url": "https://x.com/thsottiaux/status/2109045220411351517",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "2108645667451318747",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "Day 5/\n\nComposer predictions in the desktop app.",
+      "published": "2026-10-09T19:47:58.000Z",
+      "url": "https://x.com/thsottiaux/status/2108645667451318747",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "2108040921044639779",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "Confirmed landed across all accounts. How are we doing so far?",
+      "published": "2026-10-08T03:44:55.000Z",
+      "url": "https://x.com/thsottiaux/status/2108040921044639779",
+      "parent": null,
+      "quote": "2107913674593644711",
+      "verified": true
+    },
+    {
+      "id": "2107913738791596286",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "Will be there by EOD PST.",
+      "published": "2026-10-07T19:19:33.000Z",
+      "url": "https://x.com/thsottiaux/status/2107913738791596286",
+      "parent": "2107913674593644711",
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "2107913674593644711",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "Loading a banked reset in everyone's paid accounts.",
+      "published": "2026-10-07T19:19:17.000Z",
+      "url": "https://x.com/thsottiaux/status/2107913674593644711",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "2107676653895967106",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "Also! Good evening!!",
+      "published": "2026-10-07T03:37:27.000Z",
+      "url": "https://x.com/thsottiaux/status/2107676653895967106",
+      "parent": "2107676072871600470",
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "2107676261099426030",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "And we won't unship the improvements. You get to have your cake and eat it too. See you tomorrow for Day 3!",
+      "published": "2026-10-07T03:35:54.000Z",
+      "url": "https://x.com/thsottiaux/status/2107676261099426030",
+      "parent": "2107676072871600470",
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "2107676072871600470",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "Therefore ... the reset has been processed.\nEnjoy!",
+      "published": "2026-10-07T03:35:09.000Z",
+      "url": "https://x.com/thsottiaux/status/2107676072871600470",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "2106845241357824205",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "Over the next 28 days, each day we’ll either ship one thing that is a clear improvement",
+      "published": "2026-10-04T20:33:43.000Z",
+      "url": "https://x.com/thsottiaux/status/2106845241357824205",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "2105672058269212820",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "Because usage on your primary dot is virtually unlimited at the moment, I can’t really give a reset.",
+      "published": "2026-10-01T14:51:54.000Z",
+      "url": "https://x.com/thsottiaux/status/2105672058269212820",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "9000000000000000000",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "Global reset by EOD.",
+      "published": "2026-10-12T00:00:00+00:00",
+      "url": "https://x.com/thsottiaux/status/9000000000000000000",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "9000000000000000001",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "Global reset landing tomorrow 10am UTC for all paid Codex and ChatGPT Work accounts.",
+      "published": "2026-10-12T01:00:00+00:00",
+      "url": "https://x.com/thsottiaux/status/9000000000000000001",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "9000000000000000002",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "We will reset all Codex rate limits at 2026-10-12T09:30:00Z.",
+      "published": "2026-10-12T02:00:00+00:00",
+      "url": "https://x.com/thsottiaux/status/9000000000000000002",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "9000000000000000003",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "Reset all propagated. Enjoy.",
+      "published": "2026-10-12T03:00:00+00:00",
+      "url": "https://x.com/thsottiaux/status/9000000000000000003",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "9000000000000000004",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "No reset today.",
+      "published": "2026-10-12T04:00:00+00:00",
+      "url": "https://x.com/thsottiaux/status/9000000000000000004",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "9000000000000000005",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "We will not reset Codex limits today.",
+      "published": "2026-10-12T05:00:00+00:00",
+      "url": "https://x.com/thsottiaux/status/9000000000000000005",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "9000000000000000006",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "The reset has not been processed.",
+      "published": "2026-10-12T06:00:00+00:00",
+      "url": "https://x.com/thsottiaux/status/9000000000000000006",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "9000000000000000007",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "Reset is not complete.",
+      "published": "2026-10-12T07:00:00+00:00",
+      "url": "https://x.com/thsottiaux/status/9000000000000000007",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "9000000000000000008",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "Not all propagated yet.",
+      "published": "2026-10-12T08:00:00+00:00",
+      "url": "https://x.com/thsottiaux/status/9000000000000000008",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "9000000000000000009",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "Global reset might happen tomorrow.",
+      "published": "2026-10-12T09:00:00+00:00",
+      "url": "https://x.com/thsottiaux/status/9000000000000000009",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "9000000000000000010",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "There is a 90% probability of a Codex reset today.",
+      "published": "2026-10-12T10:00:00+00:00",
+      "url": "https://x.com/thsottiaux/status/9000000000000000010",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "9000000000000000011",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "If we reach perfection it will be resets from there onwards.",
+      "published": "2026-10-12T11:00:00+00:00",
+      "url": "https://x.com/thsottiaux/status/9000000000000000011",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "9000000000000000012",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "Will we reset all Codex limits tomorrow?",
+      "published": "2026-10-12T12:00:00+00:00",
+      "url": "https://x.com/thsottiaux/status/9000000000000000012",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "9000000000000000013",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "Yesterday the reset all propagated.",
+      "published": "2026-10-12T13:00:00+00:00",
+      "url": "https://x.com/thsottiaux/status/9000000000000000013",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "9000000000000000014",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "Remember when we gave a full reset last week?",
+      "published": "2026-10-12T14:00:00+00:00",
+      "url": "https://x.com/thsottiaux/status/9000000000000000014",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "9000000000000000015",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "We shipped a faster model and more skills.",
+      "published": "2026-10-12T15:00:00+00:00",
+      "url": "https://x.com/thsottiaux/status/9000000000000000015",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "9000000000000000016",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "Loading a banked reset in everyone's paid accounts.",
+      "published": "2026-10-12T16:00:00+00:00",
+      "url": "https://x.com/thsottiaux/status/9000000000000000016",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "9000000000000000017",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "Banked resets are a useful feature.",
+      "published": "2026-10-12T17:00:00+00:00",
+      "url": "https://x.com/thsottiaux/status/9000000000000000017",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "9000000000000000018",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "Reset",
+      "published": "2026-10-12T18:00:00+00:00",
+      "url": "https://x.com/thsottiaux/status/9000000000000000018",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "9000000000000000019",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "The password reset has been processed.",
+      "published": "2026-10-12T19:00:00+00:00",
+      "url": "https://x.com/thsottiaux/status/9000000000000000019",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "9000000000000000020",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "My account got a reset today.",
+      "published": "2026-10-12T20:00:00+00:00",
+      "url": "https://x.com/thsottiaux/status/9000000000000000020",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "9000000000000000021",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "Only some users received the reset.",
+      "published": "2026-10-12T21:00:00+00:00",
+      "url": "https://x.com/thsottiaux/status/9000000000000000021",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "9000000000000000022",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "今天不重置。",
+      "published": "2026-10-12T22:00:00+00:00",
+      "url": "https://x.com/thsottiaux/status/9000000000000000022",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "9000000000000000023",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "明天将对所有 Codex 用户额度进行全局重置。",
+      "published": "2026-10-12T23:00:00+00:00",
+      "url": "https://x.com/thsottiaux/status/9000000000000000023",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "9000000000000000024",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "全局额度重置已完成。",
+      "published": "2026-10-13T00:00:00+00:00",
+      "url": "https://x.com/thsottiaux/status/9000000000000000024",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    },
+    {
+      "id": "9000000000000000025",
+      "author": "thsottiaux",
+      "author_id": "1953337039510003712",
+      "text": "储存式重置券已经发放，请自行领取。",
+      "published": "2026-10-13T01:00:00+00:00",
+      "url": "https://x.com/thsottiaux/status/9000000000000000025",
+      "parent": null,
+      "quote": null,
+      "verified": true
+    }
+  ],
+  "expected": {
+    "2109132167112782291": "COMPLETED",
+    "2109090080497508356": "IGNORE",
+    "2109045392684032299": "UPCOMING",
+    "2109045220411351517": "REVIEW",
+    "2108645667451318747": "IGNORE",
+    "2108040921044639779": "BANKED",
+    "2107913738791596286": "BANKED",
+    "2107913674593644711": "BANKED",
+    "2107676653895967106": "IGNORE",
+    "2107676261099426030": "IGNORE",
+    "2107676072871600470": "COMPLETED",
+    "2106845241357824205": "IGNORE",
+    "2105672058269212820": "IGNORE",
+    "9000000000000000000": "UPCOMING",
+    "9000000000000000001": "UPCOMING",
+    "9000000000000000002": "UPCOMING",
+    "9000000000000000003": "COMPLETED",
+    "9000000000000000004": "IGNORE",
+    "9000000000000000005": "IGNORE",
+    "9000000000000000006": "IGNORE",
+    "9000000000000000007": "IGNORE",
+    "9000000000000000008": "IGNORE",
+    "9000000000000000009": "IGNORE",
+    "9000000000000000010": "IGNORE",
+    "9000000000000000011": "IGNORE",
+    "9000000000000000012": "REVIEW",
+    "9000000000000000013": "IGNORE",
+    "9000000000000000014": "IGNORE",
+    "9000000000000000015": "IGNORE",
+    "9000000000000000016": "BANKED",
+    "9000000000000000017": "REVIEW",
+    "9000000000000000018": "REVIEW",
+    "9000000000000000019": "IGNORE",
+    "9000000000000000020": "IGNORE",
+    "9000000000000000021": "IGNORE",
+    "9000000000000000022": "IGNORE",
+    "9000000000000000023": "UPCOMING",
+    "9000000000000000024": "COMPLETED",
+    "9000000000000000025": "BANKED"
+  },
+  "provenance": {
+    "2109132167112782291": {
+      "source_url": "https://x.com/thsottiaux/status/2109132167112782291",
+      "snapshot": "2026-10-11",
+      "text_form": "short exact excerpt or full short post",
+      "verified_via_fxembed": true
+    },
+    "2109090080497508356": {
+      "source_url": "https://x.com/thsottiaux/status/2109090080497508356",
+      "snapshot": "2026-10-11",
+      "text_form": "short exact excerpt or full short post",
+      "verified_via_fxembed": false
+    },
+    "2109045392684032299": {
+      "source_url": "https://x.com/thsottiaux/status/2109045392684032299",
+      "snapshot": "2026-10-11",
+      "text_form": "short exact excerpt or full short post",
+      "verified_via_fxembed": true
+    },
+    "2109045220411351517": {
+      "source_url": "https://x.com/thsottiaux/status/2109045220411351517",
+      "snapshot": "2026-10-11",
+      "text_form": "short exact excerpt or full short post",
+      "verified_via_fxembed": false
+    },
+    "2108645667451318747": {
+      "source_url": "https://x.com/thsottiaux/status/2108645667451318747",
+      "snapshot": "2026-10-11",
+      "text_form": "short exact excerpt or full short post",
+      "verified_via_fxembed": false
+    },
+    "2108040921044639779": {
+      "source_url": "https://x.com/thsottiaux/status/2108040921044639779",
+      "snapshot": "2026-10-11",
+      "text_form": "short exact excerpt or full short post",
+      "verified_via_fxembed": false
+    },
+    "2107913738791596286": {
+      "source_url": "https://x.com/thsottiaux/status/2107913738791596286",
+      "snapshot": "2026-10-11",
+      "text_form": "short exact excerpt or full short post",
+      "verified_via_fxembed": false
+    },
+    "2107913674593644711": {
+      "source_url": "https://x.com/thsottiaux/status/2107913674593644711",
+      "snapshot": "2026-10-11",
+      "text_form": "short exact excerpt or full short post",
+      "verified_via_fxembed": true
+    },
+    "2107676653895967106": {
+      "source_url": "https://x.com/thsottiaux/status/2107676653895967106",
+      "snapshot": "2026-10-11",
+      "text_form": "short exact excerpt or full short post",
+      "verified_via_fxembed": false
+    },
+    "2107676261099426030": {
+      "source_url": "https://x.com/thsottiaux/status/2107676261099426030",
+      "snapshot": "2026-10-11",
+      "text_form": "short exact excerpt or full short post",
+      "verified_via_fxembed": false
+    },
+    "2107676072871600470": {
+      "source_url": "https://x.com/thsottiaux/status/2107676072871600470",
+      "snapshot": "2026-10-11",
+      "text_form": "short exact excerpt or full short post",
+      "verified_via_fxembed": true
+    },
+    "2106845241357824205": {
+      "source_url": "https://x.com/thsottiaux/status/2106845241357824205",
+      "snapshot": "2026-10-11",
+      "text_form": "short exact excerpt or full short post",
+      "verified_via_fxembed": false
+    },
+    "2105672058269212820": {
+      "source_url": "https://x.com/thsottiaux/status/2105672058269212820",
+      "snapshot": "2026-10-11",
+      "text_form": "short exact excerpt or full short post",
+      "verified_via_fxembed": false
+    },
+    "9000000000000000000": {
+      "synthetic": true
+    },
+    "9000000000000000001": {
+      "synthetic": true
+    },
+    "9000000000000000002": {
+      "synthetic": true
+    },
+    "9000000000000000003": {
+      "synthetic": true
+    },
+    "9000000000000000004": {
+      "synthetic": true
+    },
+    "9000000000000000005": {
+      "synthetic": true
+    },
+    "9000000000000000006": {
+      "synthetic": true
+    },
+    "9000000000000000007": {
+      "synthetic": true
+    },
+    "9000000000000000008": {
+      "synthetic": true
+    },
+    "9000000000000000009": {
+      "synthetic": true
+    },
+    "9000000000000000010": {
+      "synthetic": true
+    },
+    "9000000000000000011": {
+      "synthetic": true
+    },
+    "9000000000000000012": {
+      "synthetic": true
+    },
+    "9000000000000000013": {
+      "synthetic": true
+    },
+    "9000000000000000014": {
+      "synthetic": true
+    },
+    "9000000000000000015": {
+      "synthetic": true
+    },
+    "9000000000000000016": {
+      "synthetic": true
+    },
+    "9000000000000000017": {
+      "synthetic": true
+    },
+    "9000000000000000018": {
+      "synthetic": true
+    },
+    "9000000000000000019": {
+      "synthetic": true
+    },
+    "9000000000000000020": {
+      "synthetic": true
+    },
+    "9000000000000000021": {
+      "synthetic": true
+    },
+    "9000000000000000022": {
+      "synthetic": true
+    },
+    "9000000000000000023": {
+      "synthetic": true
+    },
+    "9000000000000000024": {
+      "synthetic": true
+    },
+    "9000000000000000025": {
+      "synthetic": true
+    }
+  }
+}

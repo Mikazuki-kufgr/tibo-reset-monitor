@@ -1,0 +1,82 @@
+name: Quiet Codex reset monitor
+on:
+  workflow_dispatch:
+    inputs:
+      bootstrap:
+        description: Allow creation of a missing state branch (first setup only)
+        type: boolean
+        required: true
+        default: false
+  schedule:
+    - cron: '3,8,13,18,23,28,33,38,43,48,53,58 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: quiet-tibo-reset-monitor
+  cancel-in-progress: false
+jobs:
+  monitor:
+    if: vars.MONITOR_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      PYTHONUTF8: '1'
+      NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+      NTFY_TOKEN: ${{ secrets.NTFY_TOKEN }}
+      BARK_DEVICE_KEY: ${{ secrets.BARK_DEVICE_KEY }}
+      RESET_WEBHOOK_URL: ${{ secrets.RESET_WEBHOOK_URL }}
+      RESET_WEBHOOK_SECRET: ${{ secrets.RESET_WEBHOOK_SECRET }}
+      CLAIM_ID: ${{ github.run_id }}-${{ github.run_attempt }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Prepare durable state
+        id: prepare
+        env:
+          BOOTSTRAP: ${{ inputs.bootstrap }}
+        run: |
+          if [ "$BOOTSTRAP" = 'true' ]; then
+            python scripts/cloud_state.py prepare --bootstrap
+          else
+            python scripts/cloud_state.py prepare
+          fi
+      - name: Discover and enqueue (no sending)
+        id: poll
+        continue-on-error: true
+        run: python -m monitor poll --config config.cloud.public.json --state runtime/state.sqlite3
+      - name: Save discovered events and baseline
+        id: discovery_saved
+        if: always() && steps.prepare.outcome == 'success'
+        run: python scripts/cloud_state.py persist
+      - name: Mark due deliveries before network sending
+        id: claim
+        if: always() && steps.discovery_saved.outcome == 'success'
+        run: python -m monitor dispatch --config config.cloud.public.json --state runtime/state.sqlite3 --claim-only --claim-id "$CLAIM_ID"
+      - name: Persist sending markers
+        id: claim_saved
+        if: always() && steps.claim.outcome == 'success'
+        run: python scripts/cloud_state.py persist
+      - name: Deliver only this run's claims
+        id: deliver
+        continue-on-error: true
+        if: always() && steps.claim_saved.outcome == 'success'
+        run: python -m monitor dispatch --config config.cloud.public.json --state runtime/state.sqlite3 --send --claim-id "$CLAIM_ID"
+      - name: Save delivery receipts
+        id: receipts
+        if: always() && steps.claim_saved.outcome == 'success'
+        run: python scripts/cloud_state.py persist
+      - name: Preserve recovery checkpoint after persistence failure
+        if: failure() && steps.prepare.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: private-monitor-state-recovery-${{ github.run_id }}
+          path: |
+            runtime/state.sqlite3
+            runtime/.initialized
+          include-hidden-files: true
+          retention-days: 7
+      - name: Report failed source or channel in Actions only
+        if: always() && (steps.poll.outcome == 'failure' || steps.deliver.outcome == 'failure')
+        run: exit 2
