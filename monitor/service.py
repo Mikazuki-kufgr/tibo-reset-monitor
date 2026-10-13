@@ -63,10 +63,12 @@ def daemon(config_path,state_path,interval=300,private_path=None,cycle_timeout=2
                 log=runtime/'worker.log'
                 if log.exists() and log.stat().st_size>1_000_000:
                     os.replace(log,runtime/'worker.previous.log')
-                cmd=[sys.executable,'-B','-m','monitor','run','--config',str(config_path),'--state',str(state_path),'--send']
+                worker=pathlib.Path(sys.executable)
+                if os.name=='nt' and worker.name.lower()=='pythonw.exe':worker=worker.with_name('python.exe')
+                cmd=[str(worker),'-B','-m','monitor','run','--config',str(config_path),'--state',str(state_path),'--send']
                 if private_path:cmd.extend(['--private-channels',str(private_path)])
                 with log.open('ab') as output:
-                    child=subprocess.Popen(cmd,cwd=project,stdout=output,stderr=output)
+                    child=subprocess.Popen(cmd,cwd=project,stdout=output,stderr=output,creationflags=subprocess.CREATE_NO_WINDOW if os.name=='nt' else 0)
                     value['child_pid']=child.pid;atomic(runtime/'service.json',value)
                     while child.poll() is None:
                         if stopping() or time.monotonic()-started>cycle_timeout:
